@@ -27,6 +27,7 @@ public class Main {
 
         */
 
+        /*
         String text= "NIBM Galle Branch";
         System.out.println(text.length());//length
         System.out.println(text.substring(5));//Substring substring from 5th letter
@@ -38,6 +39,28 @@ public class Main {
         System.out.println(text.toLowerCase());//convert to lower case
         System.out.println(text.startsWith("NIBM"));//Text starts with returns a boolean values
         System.out.println(text.contains("Galle"));//Text contains returns a boolean valuessss
+        */
+
+
+        //strings are immutable and when we modify a string it creates a garbage string,to avoid that we have to use stringbuffer and string builder classes
+        StringBuilder sb = new StringBuilder("NIBM");
+
+        //appending text
+        sb.append(" ").append("Galle").append(" Branch");
+        System.out.println(sb.toString());
+
+        //Delete text
+        sb.delete(5,10);
+        System.out.println(sb.toString());
+
+        //Insert text
+        sb.insert(5,"Matara");
+        System.out.println(sb.toString());
+
+        //Substring
+        System.out.println(sb.substring(5));
+        System.out.println(sb.substring(5,11));
+
 
 
 
