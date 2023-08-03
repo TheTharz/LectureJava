@@ -42,7 +42,7 @@ public class Main {
         */
 
 
-        //strings are immutable and when we modify a string it creates a garbage string,to avoid that we have to use stringbuffer and string builder classes
+        /*//strings are immutable and when we modify a string it creates a garbage string,to avoid that we have to use stringbuffer and string builder classes
         StringBuilder sb = new StringBuilder("NIBM");
 
         //appending text
@@ -60,9 +60,8 @@ public class Main {
         //Substring
         System.out.println(sb.substring(5));
         System.out.println(sb.substring(5,11));
-
-
-
-
+*/
     }
+
+
 }
